@@ -1,0 +1,263 @@
+@import './assets/css/animate.css';
+@import './assets/css/fonts.css';
+@import '../node_modules/animate.css/animate.min.css';
+
+@import '../node_modules/draft-js/dist/Draft.css';
+@import '../node_modules/draftail/dist/draftail.css';
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  height: 100%;
+  color: #2d3748;
+  background-color: #f5f5f5;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul:not(.list-none) li:before {
+  content: '●';
+  padding-right: 6px;
+}
+ul .public-DraftStyleDefault-depth1:before {
+  content: '◦'!important;
+}
+
+ol li {
+  margin-left: 1.5rem !important;
+}
+ol .public-DraftStyleDefault-depth1 {
+  margin-left: 3rem !important;
+}
+
+input[type='range']::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  appearance: none;
+  cursor: ew-resize;
+  background: #fff;
+  border: none;
+  box-shadow: -405px 0 0 400px #605e5c;
+  border-radius: 50%;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  width: 20px;
+  height: 20px;
+  appearance: none;
+  cursor: ew-resize;
+  background: #fff;
+  border: none;
+  box-shadow: -405px 0 0 400px #605e5c;
+  border-radius: 50%;
+}
+
+.centered {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen {
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+      appearance: none;
+      margin: 0;
+  }
+
+  input[type='number'] {
+      -moz-appearance: textfield;
+  }
+
+  input:focus {
+      outline: none !important;
+  }
+
+  button:focus {
+      outline: none !important;
+  }
+
+  input:checked + i.material-icons {
+      display: block;
+  }
+
+  #sideBar {
+      top: 0;
+      left: 0;
+      bottom: 0;
+  }
+  #sideBar > div.overflow-auto {
+    box-shadow: 6px 0 12px -6px rgba(0, 0, 0, 0.2);
+  }
+  #page {
+      width: 21cm;
+      background-color: white;
+  }
+
+  #page > div{
+    min-height: 29.7cm;
+  }
+
+  #printPage {
+      display: none;
+  }
+
+  #pageController {
+      bottom: 25px;
+  }
+
+  #pageController > div {
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@page {
+  size: letter;
+  margin: 0;
+  padding: 0;
+}
+
+@media print {
+  html,
+  body,
+  body * {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+    visibility: hidden;
+  }
+
+  #printPage,
+  #printPage * {
+    visibility: visible;
+    page-break-inside: avoid;
+  }
+
+  #printPage {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+      -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                              supported by Chrome, Edge, Opera and Firefox */
+}
+
+.Draftail-Editor {
+  background-color: #edf2f7;
+  border: 1px solid #edf2f7;
+}
+.textarea-focused .Draftail-Editor {
+  background-color: unset;
+  border: 1px solid #ddd;
+}
+
+.public-DraftStyleDefault-ul, .public-DraftStyleDefault-ol{
+  margin: 0 !important;
+}
+.public-DraftStyleDefault-ul li {
+  list-style: none !important;
+}
+.public-DraftStyleDefault-ul li div {
+  display: inline;
+}
+.Draftail-block--unstyled {
+  margin: 0 !important;
+}
+.Draftail-ToolbarButton {
+  border: none;
+}
+.Draftail-ToolbarButton--active {
+  color:rgb(66, 153, 225);
+  background: inherit;
+  border: none;
+}
+.DraftEditor-root {
+  height: 280px;
+}
+.textarea-summary .DraftEditor-root {
+  height: 60vh;
+  max-height: 580px;
+}
+.Draftail-Toolbar {
+  background: none;
+  border: none;
+  padding: 0;
+}
+.public-DraftEditorPlaceholder-root {
+  padding: 0.5rem !important;
+  margin-top: -1rem;
+}
+.public-DraftEditorPlaceholder-root .public-DraftEditorPlaceholder-inner {
+  color: #bdc1c9;
+}
+.DraftEditor-editorContainer > div {
+  padding: 0.5rem !important;
+  padding-top: 0 !important;
+}
+.Draftail-Editor .DraftEditor-root{
+  color: unset;
+  font-family: unset;
+  font-size: unset;
+}
+
+.textarea-readOnly * {
+  pointer-events: none;
+}
+.textarea-none {
+  display: none;
+}
+.textarea-readOnly .Draftail-Toolbar {
+  display: none;
+}
+.textarea-readOnly .DraftEditor-editorContainer > div {
+  padding: 0 !important;
+}
+.textarea-readOnly .DraftEditor-editorContainer {
+  border: none;
+}
+.textarea-readOnly .Draftail-Editor {
+  border: none;
+}
+.textarea-readOnly .DraftEditor-root {
+  height: unset;
+  line-height: 1.5;
+}
+.textarea-readOnly .Draftail-Editor {
+  background-color: unset;
+}
+
+.public-DraftStyleDefault-depth0.public-DraftStyleDefault-listLTR{
+  margin-left: 0;
+}
+.public-DraftStyleDefault-depth1.public-DraftStyleDefault-listLTR {
+  margin-left: 1.5rem;
+}
+
+.Draftail-Toolbar, .Draftail-ToolbarGroup, .Draftail-ToolbarGroup button {
+  display: flex;
+  align-items: center;
+}
+.Draftail-ToolbarGroup button {
+  padding: 0.5rem 0.25rem;
+}
+.Draftail-ToolbarGroup .material-icons {
+  font-size: 20px;
+}

@@ -1,0 +1,205 @@
+{
+  "data": {
+    "basics": {
+      "name": "Suraj Deshmane",
+      "label": "Full Stack Developer",
+      "phone": "+91 9325834829",
+      "website": "http://surajdeshmane.netlify.app/",
+      "email": "surajdeshmane05@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/suraj-deshmane-4046ba185/",
+      "github": "https://github.com/suraj-codes",
+      "summary": {
+        "blocks": [
+          {
+            "key": "b1ito",
+            "text": "A passionate Full Stack Software Developer having an experience of building Web applications with JavaScript/Reactjs/Nodejs and some libraries and frameworks.",
+            "type": "unstyled",
+            "depth": 0,
+            "inlineStyleRanges": [],
+            "entityRanges": [],
+            "data": {}
+          }
+        ],
+        "entityMap": {}
+      },
+      "location": {
+        "address": "Hadapsar",
+        "city": "Pune",
+        "region": "Maharashtra"
+      }
+    },
+    "work": [
+      {
+        "id": "a208ec03-76e3-4428-ac5b-e17c3de4ac18",
+        "company": "Pivotchain Solutions",
+        "location": "Pune, MH",
+        "position": "Frontend Developer",
+        "startDate": "Sep 2021",
+        "endDate": "Present",
+        "enable": true,
+        "description": {
+          "blocks": [
+            {
+              "key": "b1ito",
+              "text": "Working as a full time Frontend Developer in Pivotchain Solutions.\n",
+              "type": "unordered-list-item",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            }
+          ],
+          "entityMap": {}
+        }
+      }
+    ],
+    "education": [
+      {
+        "id": "71a9852f-ed14-4281-bff2-4db9a2275978",
+        "institution": "Vishwatmak Om Gurudev College of Engineering",
+        "location": "Thane, MH",
+        "major": "BE in Computer Engineering",
+        "startDate": "Dec 2021",
+        "endDate": "Aug 2024",
+        "gpa": "7 CGPA",
+        "description": null,
+        "enable": true
+      },
+      {
+        "id": "624f32ab-2d78-4052-86ad-1354fd41d754",
+        "institution": "JSPM's Jayawantrao Sawant Polytechnic",
+        "location": "Pune, MH",
+        "major": "Diploma in Computer Engineering",
+        "startDate": "Jun 2018",
+        "endDate": "Aug 2021",
+        "gpa": "8.0 CGPA",
+        "description": null,
+        "enable": true
+      }
+    ],
+    "awards": [],
+    "certifications": [
+      {
+        "id": "e5170d99-b21d-4131-a7dc-26a4670037f5",
+        "title": "React + Redux",
+        "issuer": "SoloLearn",
+        "date": "Feb, 2021",
+        "summary": null,
+        "enable": true
+      },
+      {
+        "id": "788e4042-9ecb-40c5-849d-7688b4e23888",
+        "title": "JavaScript",
+        "issuer": "SoloLearn",
+        "date": "Jan, 2021",
+        "summary": null,
+        "enable": true
+      },
+      {
+        "id": "97a1a8d9-3c03-47fb-93ab-e84f864ffe17",
+        "title": "Responsive Web Development",
+        "issuer": "SoloLearn",
+        "date": "Mar, 2021",
+        "summary": null,
+        "enable": true
+      }
+    ],
+    "skills": [
+      {
+        "id": "2562d78a-3459-4370-8604-c81b00738db1",
+        "skill": "HTML",
+        "enable": true
+      },
+      {
+        "id": "58c31587-9770-4522-a34c-f5ad92fe33e5",
+        "skill": "CSS",
+        "enable": true
+      },
+      {
+        "id": "7aa9a4b1-a2bb-4bcd-8711-b66c0d246971",
+        "skill": "JavaScript",
+        "enable": true
+      },
+      {
+        "id": "e7fd33e8-5d77-462d-8115-5be57f52832e",
+        "skill": "React",
+        "enable": true
+      },
+      {
+        "id": "7bad2af1-c24d-4e01-b68b-be01cfa784ce",
+        "skill": "Nodejs",
+        "enable": true
+      },
+      {
+        "id": "64fe1710-c2d1-4f53-922e-a5d751eee967",
+        "skill": "Redux",
+        "enable": true
+      },
+      {
+        "id": "e7fd33e8-5d77-462d-8135-5be57f52832e",
+        "skill": "Git",
+        "enable": true
+      },
+      {
+        "id": "7bad2af1-c24d-4e01-b68a-be01cfa784ce",
+        "skill": "Python",
+        "enable": true
+      },
+      {
+        "id": "64fe1710-c2d1-4f53-922k-a5d751eee967",
+        "skill": "MongoDB",
+        "enable": true
+      },
+      {
+        "id": "64fe1710-c2d1-4f53-922w-a5d751eee967",
+        "skill": "React Native",
+        "enable": true
+      }
+    ],
+    "references": []
+  },
+  "theme": {
+    "layout": "charizard",
+    "font": {
+      "family": "Montserrat"
+    },
+    "colors": {
+      "background": "#ffffff",
+      "primary": "#212121",
+      "accent": "#009688"
+    }
+  },
+  "config": {
+    "basics": {
+      "heading": "Profile"
+    },
+    "summary": {
+      "enable": true,
+      "heading": "Summary"
+    },
+    "work": {
+      "enable": true,
+      "heading": "Work Experience"
+    },
+    "education": {
+      "enable": true,
+      "heading": "Education"
+    },
+    "awards": {
+      "enable": false,
+      "heading": "Honors & Awards"
+    },
+    "certifications": {
+      "enable": true,
+      "heading": "Certifications"
+    },
+    "skills": {
+      "enable": true,
+      "heading": "Skills"
+    },
+    "references": {
+      "enable": false,
+      "heading": "References"
+    }
+  }
+}
