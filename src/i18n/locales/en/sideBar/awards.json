@@ -1,0 +1,11 @@
+{
+  "title": {
+    "label": "Award Name"
+  },
+  "awarder": {
+    "label": "Issuer"
+  },
+  "date": {
+    "label": "Date"
+  }
+}
